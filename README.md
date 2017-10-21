@@ -20,7 +20,7 @@ Migrate all indexes removing all existing data first
 
 Migrate only the daily indexes before October
 
-`migrate-elasticsearch -O clusterA clusterB daily\.2017(01|02|03|04|05|06|07|08|09|10).*`
+`migrate-elasticsearch -O clusterA clusterB daily\.2017-(01|02|03|04|05|06|07|08|09|10).*`
 
 Migrate any indexes that do not already exist (and have a least 1 document)
 

@@ -1,0 +1,29 @@
+{
+  "name": "migrate-elasticseach",
+  "version": "1.0.0",
+  "description": "Migrates data from one elasticsearch cluster to another",
+  "main": "index.js",
+  "bin": {
+    "migrate-elasticsearch": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancehudson/migrate-elasticseach.git"
+  },
+  "author": "Lance Hudson <lance@lancehudson.com> (http://lancehudson.com/)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/lancehudson/migrate-elasticseach/issues"
+  },
+  "homepage": "https://github.com/lancehudson/migrate-elasticseach#readme",
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "commander": "^2.11.0",
+    "debug": "^3.1.0",
+    "progress": "^2.0.0",
+    "prompt-promise": "^1.0.3",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "supports-color": "^5.0.0"
+  }
+}
